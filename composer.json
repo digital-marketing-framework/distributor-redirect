@@ -1,0 +1,48 @@
+{
+    "name": "digital-marketing-framework/distributor-redirect",
+    "description": "Digital Marketing Framework - Distributor - Redirect",
+    "license": "GPL-2.0-or-later",
+    "type": "library",
+    "keywords": [
+        "marketing",
+        "framework",
+        "data",
+        "relay",
+        "distribution",
+        "distributor",
+        "redirect"
+    ],
+    "authors": [
+        {
+            "name": "Mediatis AG",
+            "email": "info@mediatis.de",
+            "homepage": "https://www.mediatis.de",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://www.mediatis.de",
+    "require": {
+        "php": "^8.2",
+        "digital-marketing-framework/core": "^3.11",
+        "digital-marketing-framework/distributor-core": "^3.7"
+    },
+    "require-dev": {
+        "mediatis/coding-standards": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalMarketingFramework\\Distributor\\Redirect\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}
